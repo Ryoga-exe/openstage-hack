@@ -8,6 +8,14 @@ OpenStage 40 系には SIP / HFA など複数の系統があり、本リポジ�
 
 `G` は Gigabit Ethernet 対応モデルを示すらしい。
 
+### Factory Reset
+
+基本中古で買うことになるが、そうなると Factory Reset したくなる。
+
+やり方：289 を同時押して 124816 を入力する
+
+<https://wiki.unify.com/wiki/OpenStage_SIP_FAQ#How_can_I_invoke_a_factory_reset.3F>
+
 ## 調査すること
 
 - 配布ファームウェアの展開とファイルシステム解析
@@ -32,13 +40,13 @@ OpenStage シリーズには、現在も Unify OpenScape Experts Wiki 上に多�
 - OpenStage HFA/SIP datasheet: https://wiki.unify.com/images/e/e3/Datasheet_OpenStage_IP.pdf
 - OpenStage SIP administration manual: https://wiki.unify.com/images/1/1b/Administration_Manual_OpenStage_OpenScape_Voice.pdf
 
-### Factory Reset
+### 関連する CVE など
 
-基本中古で買うことになるが、そうなると Factory Reset したくなる。
-
-やり方：289 を同時押して 124816 を入力する
-
-<https://wiki.unify.com/wiki/OpenStage_SIP_FAQ#How_can_I_invoke_a_factory_reset.3F>
+- CVE-2024-28065
+  - https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2024-007.txt
+- CVE-2024-28066
+  - https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2024-008.txt
+- https://www.pentagrid.ch/en/blog/rce-and-local-root-in-openstage-and-openscape-phones/
 
 ## 注意
 
